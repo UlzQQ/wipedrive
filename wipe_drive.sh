@@ -32,3 +32,4 @@ dd if=/dev/zero of="$DEVICE" bs=1M status=progress
 sync
 
 echo "Secure wipe complete!"
+exit 0
